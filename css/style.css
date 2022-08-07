@@ -86,24 +86,38 @@ header div button {
   margin: 20px 40px;
 }
 
-.nosotros {
+.containersNosotros {
   display: flex;
   justify-content: center;
 }
-.nosotros .nosotrosTarjeta {
-  flex-direction: column;
+.containersNosotros .containerNosotros {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  margin: 50px;
+}
+.containersNosotros .containerNosotros img {
+  width: 25%;
+  border: 2px solid rgb(12, 166, 81);
+  border-radius: 100px;
+}
+.containersNosotros .containerNosotros .parrafosNosotros {
+  display: block;
+  align-items: center;
   width: 500px;
+  margin: 0px 100px;
 }
-.nosotros .nosotrosTarjeta h3 {
-  color: rgb(14, 199, 100);
+.containersNosotros .containerNosotros .parrafosNosotros h4 {
+  padding: 20px 0px;
 }
-.nosotros .nosotrosTarjeta p {
-  margin: 10px;
-}
-.nosotros .nosotrosTarjeta img {
-  width: 80%;
-  border-radius: 5px;
+
+.lineaBorde {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  margin-top: 6%;
+  border-left: 1px solid rgb(12, 166, 81);
 }
 
 .contact {
@@ -178,42 +192,4 @@ header div button {
 .barraDivisora {
   color: rgb(12, 166, 81);
   width: 30%;
-}
-
-.lineaBorde {
-  display: flex;
-  justify-content: center;
-  height: 80%;
-  margin-top: 6%;
-  border-left: 1px solid rgb(12, 166, 81);
-}
-
-.containersNosotros {
-  display: flex;
-  justify-content: center;
-}
-.containersNosotros .containerNosotros {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 50px;
-}
-.containersNosotros .containerNosotros img {
-  width: 25%;
-  border: 2px solid rgb(12, 166, 81);
-  border-radius: 100px;
-}
-.containersNosotros .containerNosotros .parrafosNosotros {
-  display: block;
-  align-items: center;
-  width: 500px;
-  margin: 0px 100px;
-}
-.containersNosotros .containerNosotros .parrafosNosotros h4 {
-  padding: 20px 0px;
-}
-
-.sdadsa {
-  margin-bottom: 20px;
 }
